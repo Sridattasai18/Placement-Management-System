@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Eligible Jobs">
+
+        <template if:true={jobs}>
+            <template for:each={jobs} for:item="job">
+                <c-job-card
+                    key={job.Id}
+                    job={job}
+                    onapply={handleApply}>
+                </c-job-card>
+            </template>
+        </template>
+
+    </lightning-card>
+</template>

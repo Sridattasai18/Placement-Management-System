@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Student Summary">
+        <div class="slds-p-around_medium">
+            <template if:true={hasStudent}>
+                <p><strong>Name:</strong> {studentName}</p>
+                <p><strong>Department:</strong> {department}</p>
+                <p><strong>CGPA:</strong> {cgpa}</p>
+                <p><strong>Backlogs:</strong> {backlogs}</p>
+            </template>
+
+            <template if:false={hasStudent}>
+                <p>Loading student information...</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
