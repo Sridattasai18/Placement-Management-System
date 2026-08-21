@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get the Placement Management System up and running in 5 minutes.
+🎯 Get the Placement Management System up and running in 5 minutes.
 
 ## Prerequisites
 
@@ -96,8 +96,8 @@ sf org open
 2. Select a **Student**
 3. Select a **Job**
 4. Click **Save**
-5. - Application created (if CGPA meets requirement)
-6.  Error shown (if CGPA too low or duplicate)
+5. ✅ Application created (if CGPA meets requirement)
+6. ❌ Error shown (if CGPA too low or duplicate)
 
 ### Test 3: Test REST API
 
@@ -221,5 +221,5 @@ Create Application
 
 **Total Setup Time:** ~5 minutes  
 **Components Deployed:** 19 classes, 3 triggers, 9 LWC, 5 objects  
-**- Ready to Use!**
+**✓ Ready to Use!**
 
