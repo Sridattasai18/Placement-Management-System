@@ -1,6 +1,6 @@
 # Salesforce Source-Driven Deployment Workflow
 
-This document describes the complete workflow for cloning, authenticating, retrieving, deploying, testing and verifying the Placement Management System — the workflow performed during Day 12.
+This document describes the complete workflow for cloning, authenticating, retrieving, deploying, testing and verifying the Placement Management System.
 
 ---
 
@@ -370,7 +370,7 @@ The underlying Salesforce API that CLI and Change Sets use. Directly accessible 
 
 ---
 
-## 13. Complete Day 12 Workflow Reference
+## 13. Complete Workflow Reference
 
 ```
 git clone https://github.com/Sridattasai18/Placement-Management-System.git
@@ -401,4 +401,4 @@ sf apex run test --test-level RunLocalTests --result-format human --target-org p
 
 ---
 
-*Last updated: Day 12 — Source-Driven Deployment Workflow*
+*Last updated: August 2026*

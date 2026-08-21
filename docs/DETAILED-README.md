@@ -285,7 +285,7 @@ The current configuration points to `https://jsonplaceholder.typicode.com` as a 
 sf apex run test --test-level RunLocalTests --result-format human
 ```
 
-### Day 11 Integration Tests (`ExternalPlacementServiceTest`)
+### Integration Tests (`ExternalPlacementServiceTest`)
 | Test | Verifies |
 |---|---|
 | `testSyncSelectedCandidates_Success` | Successful callout logs `Success__c = true`, `Status_Code = 201` |

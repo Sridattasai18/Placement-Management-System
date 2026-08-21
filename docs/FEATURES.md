@@ -560,17 +560,13 @@ SELECT Id, Name, CGPA__c, Email__c, Department__c FROM Student__c
 
 ## 10. Future Enhancements
 
-### 10.1 Planned Features
+### 10.1 Potential Improvements
 
-- [ ] Lightning Web Components for student portal
+- [ ] Integration retry logic for failed callouts
+- [ ] Idempotency flag on Application to prevent duplicate syncs
+- [ ] Expanded test coverage for controller error paths
+- [ ] Recruiter portal (separate from student portal)
 - [ ] Email notifications on application status change
-- [ ] SMS alerts for important updates
-- [ ] Resume upload and management
-- [ ] Interview scheduling
-- [ ] Offer letter generation
-- [ ] Placement analytics dashboard
-- [ ] Integration with external job boards
-- [ ] Mobile app support
 
 ### 10.2 Scalability Improvements
 
@@ -608,5 +604,5 @@ SELECT Id, Name, CGPA__c, Email__c, Department__c FROM Student__c
 ---
 
 **Version:** 1.0  
-**Last Updated:** 2024  
-**Status:** Production Features ✅
+**Last Updated:** August 2026  
+**Status:** Production Features

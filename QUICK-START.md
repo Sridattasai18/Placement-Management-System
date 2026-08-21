@@ -4,9 +4,9 @@ Get the Placement Management System up and running in 5 minutes.
 
 ## Prerequisites
 
-✅ Salesforce CLI installed (`sf --version`)  
-✅ VS Code with Salesforce extensions  
-✅ Salesforce Developer Org or Sandbox access
+- Salesforce CLI installed (`sf --version`)  
+- VS Code with Salesforce extensions  
+- Salesforce Developer Org or Sandbox access
 
 ---
 
@@ -74,7 +74,7 @@ List<Job__c> jobs = new List<Job__c>{
 };
 insert jobs;
 
-System.debug('✅ Created ' + students.size() + ' students and ' + jobs.size() + ' jobs');
+System.debug('- Created ' + students.size() + ' students and ' + jobs.size() + ' jobs');
 ```
 
 ### 4. Open Your Org
@@ -96,8 +96,8 @@ sf org open
 2. Select a **Student**
 3. Select a **Job**
 4. Click **Save**
-5. ✅ Application created (if CGPA meets requirement)
-6. ❌ Error shown (if CGPA too low or duplicate)
+5. - Application created (if CGPA meets requirement)
+6.  Error shown (if CGPA too low or duplicate)
 
 ### Test 3: Test REST API
 
@@ -177,10 +177,10 @@ sf apex run test --test-level RunLocalTests --result-format human
 
 ## Next Steps
 
-📖 Read [README.md](README.md) for full system overview  
-🔧 See [SETUP.md](SETUP.md) for detailed configuration  
-📚 Check [API-REFERENCE.md](API-REFERENCE.md) for API documentation  
-🚀 Review [DEPLOYMENT.md](DEPLOYMENT.md) for deployment strategies
+Read [README.md](README.md) for full system overview  
+See [SETUP.md](SETUP.md) for detailed configuration  
+Check [API-REFERENCE.md](API-REFERENCE.md) for API documentation  
+Review [DEPLOYMENT.md](DEPLOYMENT.md) for deployment strategies
 
 ---
 
@@ -219,6 +219,7 @@ Create Application
 
 ---
 
-**⏱️ Total Setup Time:** ~5 minutes  
-**📦 Components Deployed:** 19 classes, 3 triggers, 9 LWC, 5 objects  
-**✅ Ready to Use!**
+**Total Setup Time:** ~5 minutes  
+**Components Deployed:** 19 classes, 3 triggers, 9 LWC, 5 objects  
+**- Ready to Use!**
+

@@ -16,8 +16,8 @@ Before deploying, ensure you have:
 ### 1. Deploy to Salesforce
 
 ```bash
-# Navigate to placement-system folder
-cd placement-system
+# Navigate to project folder
+cd Placement-Management-System
 
 # Deploy all metadata
 sf project deploy start
@@ -484,5 +484,5 @@ After successful deployment:
 ---
 
 **Deployment Version:** 1.0  
-**Last Updated:** 2024  
-**Status:** Deployment Ready ✅
+**Last Updated:** August 2026  
+**Status:** Deployment Ready
