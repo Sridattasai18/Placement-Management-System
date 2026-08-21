@@ -415,3 +415,11 @@ Placement-Management-System/
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
+## Note
+
+I built this project to understand how Salesforce development works in practice — covering Apex, Lightning Web Components, trigger frameworks, async processing, and external API integration. It is not an open-source project looking for contributions.
+
+That said, if it helps you learn or gives you a reference for your own Salesforce work, feel free to fork it. A star is always appreciated.
